@@ -1,0 +1,45 @@
+[1/6] REQUEST  Hai Phong -> Singapore | 40HC | general  | prices as of 2026-11-16
+[2/6] CONTRACT CHECK
+  Jade Ocean: contract USD 590 (contract C-JO-001) -> portal check skipped
+[3/6] PORTALS, one after another inside a shared run budget (budget = 2 + 8.5 x carriers in the run, max 30 min)
+  first pass: 5 carriers, shared budget 30.0 min (2 + 8.5 x 5, capped at 30)
+  Bluewave Lines      OK  USD 610  (1.4 min; 1.4 of 30.0 min used)
+  Northstar Shipping  TEMPORARY (login problem)  (0.4 min; 1.8 of 30.0 min used)
+  Pacific Arrow       TEMPORARY (site down, HTTP 503)  (0.6 min; 2.4 of 30.0 min used)
+  Redsea Express      NO PRICE (no direct service on this lane) - accepted as the answer, no retry  (0.9 min; 3.3 of 30.0 min used)
+  Kestrel Line        OK  USD 585  (1.6 min; 4.9 of 30.0 min used)
+  -- retry 1 is a NEW run, only for: Northstar Shipping, Pacific Arrow; starts in 10 min --
+  retry 1: 2 carriers, shared budget 19.0 min (2 + 8.5 x 2)
+  Northstar Shipping  OK  USD 645  (1.7 min; 1.7 of 19.0 min used)
+  Pacific Arrow       TEMPORARY (site down, HTTP 503)  (0.6 min; 2.3 of 19.0 min used)
+  -- retry 2 is a NEW run, only for: Pacific Arrow; starts in 25 min --
+  retry 2: 1 carrier, shared budget 10.5 min (2 + 8.5 x 1)
+  Pacific Arrow       TEMPORARY (site down, HTTP 503)  (0.6 min; 0.6 of 10.5 min used)
+  Pacific Arrow       gave up after 3 runs (site down, HTTP 503)
+  first run took 4.9 simulated minutes; last retry run finished at 42.8 minutes
+[4/6] AI READS PRICE FILES (ran at the same time as the portals; mock)
+  bluewave_spot_nov.xlsx: AI returned 12 items, 12 readable
+  northstar_tariff.xlsx: AI returned 9 items, 9 readable
+  pacific_arrow_quote.xlsx: reply not usable (no JSON list found in the reply) -> asking once more
+  pacific_arrow_quote.xlsx: AI returned 10 items, 10 readable
+  verification: 29 accepted, 2 rejected
+    REJECTED Northstar Shipping Hai Phong->Singapore 40HC USD 650 [northstar_tariff.xlsx / Tariff / D5]
+             why: cell D5 holds 'USD 600', but the AI said 650
+    REJECTED Pacific Arrow Hai Phong->Singapore 20GP USD 395 [pacific_arrow_quote.xlsx / Rate list / D12]
+             why: cell D12 is empty
+[5/6] RULES
+  verified price-file items on this lane: 2
+  left out [BK-04]: Bluewave Lines USD 620 (price file) - expired on 2026-11-10
+[6/6] RANKING (all-in total = freight + local charges)
+  1. Jade Ocean          contract   freight    590 + local  245 =    835   rules: BK-02, BK-03, FT-01, LC-02, LC-03
+  2. Bluewave Lines      portal     freight    610 + local  245 =    855   rules: BK-01, BK-03, BK-04, BK-09, FT-01, FT-02, LC-02, LC-03
+  3. Kestrel Line        portal     freight    585 + local  275 =    860   rules: BK-01, BK-03, FT-01, LC-01, LC-02, LC-03
+  4. Northstar Shipping  portal     freight    645 + local  245 =    890   rules: BK-01, BK-03, BK-08, BK-09, FT-01, LC-02, LC-03
+  5. Pacific Arrow       price file freight    655 + local  245 =    900   rules: BK-01, BK-03, BK-05, BK-08, BK-09, FT-01, LC-02, LC-03
+  RECOMMENDED: Jade Ocean
+    - Lowest all-in total: USD 835 (freight 590 + local charges 245).
+    - USD 20 cheaper than the next option (Bluewave Lines).
+    - Contract rate: negotiated, no portal check needed.
+    - Valid until 2026-12-31.
+    - Free time: 10 days at POL, 14 days at POD.
+

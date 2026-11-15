@@ -1,0 +1,12 @@
+{
+ "_note": "Simulated platforms. The messaging account allows 3 articles a month and 2 were used before today. The first Facebook attempt for P-01 answers HTTP 500.",
+ "oa_monthly_quota": 3,
+ "oa_used_this_month": 2,
+ "incidents": {
+  "facebook": {
+   "P-01": [
+    "500"
+   ]
+  }
+ }
+}

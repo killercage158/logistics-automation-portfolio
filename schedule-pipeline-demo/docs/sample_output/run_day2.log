@@ -1,0 +1,87 @@
+(replaying crawl day 1 quietly first, so day 2 has a previous crawl to compare with)
+
+[1/7] CRAWL 5 carriers in parallel  | crawl day 2: Tue 17 Nov 2026
+      (each carrier: routes one after another with a minimum gap; each carrier in its own error box)
+  Bluewave Lines (json_api, 3 routes, min gap 1 s)
+    VNHPH-KRPUS  OK        6 rows   (1 call, clock   0.8 s)
+    VNHPH-JPTYO  OK        6 rows   (1 call, clock   2.6 s)
+    VNSGN-KRPUS  OK        5 rows   (1 call, clock   4.4 s)
+  Northstar Shipping (html_table, 3 routes, min gap 3 s + up to 2 s jitter)
+    VNHPH-KRPUS  OK        7 rows   (1 call, clock   1.5 s)
+    VNHPH-KRINC  OK        0 rows   (1 call, clock   6.4 s)
+      VNDAD-JPOSA: timeout (no answer) (temporary) -> wait 5 s, attempt 2 of 3 [SC-01]
+    VNDAD-JPOSA  OK        6 rows   (2 calls, clock  46.8 s)
+  Kestrel Line (csv_month, 3 routes, min gap 2 s)
+      VNHPH-KRINC_202611: 4 rows
+      VNHPH-KRINC_202612: 0 rows
+    VNHPH-KRINC  OK        4 rows   (2 calls, clock   4.4 s)
+      VNSGN-KRPUS_202611: 4 rows
+      VNSGN-KRPUS_202612: 5 rows
+    VNSGN-KRPUS  OK        9 rows   (2 calls, clock  10.8 s)
+      VNHPH-JPOSA_202611: 4 rows
+      VNHPH-JPOSA_202612: 5 rows
+    VNHPH-JPOSA  OK        9 rows   (2 calls, clock  17.2 s)
+  Jade Ocean (json_capped, 2 routes, min gap 1.2 s)
+      17 Nov..28 Dec: 8 results = the cap of 8 -> later sailings may be missing, split the window [SC-04]
+        17 Nov..07 Dec: 6 results
+        08 Dec..28 Dec: 6 results
+    VNHPH-SGSIN  OK       12 rows   (3 calls, clock   4.8 s)
+      VNSGN-JPTYO: HTTP 429 rate limit -> wait 60 s, then ask again (quota waits do not use up an attempt) [SC-01]
+      17 Nov..28 Dec: 6 results
+    VNSGN-JPTYO  OK        6 rows   (2 calls, clock  67.6 s)
+  Pacific Arrow (html_noyear, 2 routes, min gap 2.5 s)
+      VNHPH-JPTYO: HTTP 503 (temporary) -> wait 5 s, attempt 2 of 3 [SC-01]
+      VNHPH-JPTYO: HTTP 503 (temporary) -> wait 10 s, attempt 3 of 3 [SC-01]
+    VNHPH-JPTYO  FAILED  HTTP 503 on all 3 attempts  [SC-03]
+      VNSGN-KRINC: HTTP 503 (temporary) -> wait 5 s, attempt 2 of 3 [SC-01]
+      VNSGN-KRINC: HTTP 503 (temporary) -> wait 10 s, attempt 3 of 3 [SC-01]
+    VNSGN-KRINC  FAILED  HTTP 503 on all 3 attempts  [SC-03]
+  job result: success=true  (5 carriers finished, 0 crashed, 2 route error(s) inside the carrier results) [SC-16]
+[2/7] NORMALISE ports, vessel/voyage, dates and cut-offs
+  70 raw rows -> 69 clean voyages, 1 rejected
+    REJECTED Northstar Shipping, northstar_shipping/VNDAD-JPOSA.html row 3: ETD 'TBA' is not a date [SC-07]
+  port spellings mapped to UN/LOCODEs: 70 [SC-05], e.g. 'HAI PHONG' -> VNHPH; 'BUSAN, KOREA' -> KRPUS; 'DA NANG' -> VNDAD
+  vessel/voyage cleaned: 35 [SC-06], e.g. NORTHSTAR VEGA 2648N: split vessel and voyage; NORTHSTAR LYRA 2649N: split vessel and voyage
+  rows with cut-offs kept in their own fields: 69 [SC-08]
+[3/7] DE-DUPLICATE by voyage key (carrier + vessel + voyage + POL + POD, no dates) [SC-09]
+  2 duplicate(s) dropped, 67 unique voyages
+    NORTHSTAR SHIPPING|NORTHSTAR LYRA|2649N|VNHPH|KRPUS: kept northstar_shipping/VNHPH-KRPUS.html row 3 (latest in the crawl, ETD 2026-11-30), dropped northstar_shipping/VNHPH-KRPUS.html row 2 (ETD 2026-11-30) [SC-10]
+    KESTREL LINE|KESTREL MIST|2648N|VNSGN|KRPUS: kept kestrel_line/VNSGN-KRPUS_202612.csv line 2 (latest in the crawl, ETD 2026-12-01), dropped kestrel_line/VNSGN-KRPUS_202611.csv line 5 (ETD 2026-11-27) [SC-10]
+[4/7] STORE in SQLite: update in place, detect ETD changes
+  new 3, updated 3, unchanged 61, revived 0, skipped as older 0 [SC-11]
+    ETD CHANGE BLUEWAVE LINES|BLUEWAVE ARIES|2648N|VNHPH|KRPUS: 2026-11-27 -> 2026-11-29 (+2 d)  BOOKING B-1001 AFFECTED: tell the customer [SC-12]
+    ETD CHANGE KESTREL LINE|KESTREL GALE|2650N|VNHPH|JPOSA: 2026-12-09 -> 2026-12-10 (+1 d) [SC-12]
+    ETD CHANGE JADE OCEAN|JADE SERENE|2649N|VNSGN|JPTYO: 2026-12-06 -> 2026-12-05 (-1 d) [SC-12]
+[5/7] RETIRE voyages the carrier no longer lists (mark inactive, never delete)
+    retired   BLUEWAVE LINES|BLUEWAVE TBN|2650N|VNHPH|JPTYO (ETD 2026-12-08) [SC-13]
+    retired   KESTREL LINE|KESTREL DUSK|2650N|VNHPH|KRINC (ETD 2026-12-08) [SC-13]
+    retired   KESTREL LINE|KESTREL DAWN|2651N|VNHPH|KRINC (ETD 2026-12-15) [SC-13]
+    retired   KESTREL LINE|KESTREL DUSK|2652N|VNHPH|KRINC (ETD 2026-12-22) [SC-13]
+    retired   KESTREL LINE|KESTREL DAWN|2653N|VNHPH|KRINC (ETD 2026-12-29) [SC-13]
+    KEPT      BLUEWAVE LINES|BLUEWAVE CANCER|2649N|VNSGN|KRPUS (ETD 2026-12-02): not listed today, but booking B-1002 points at it -> flagged for the booking team [SC-14]
+    KEPT      KESTREL LINE|KESTREL DAWN|2649N|VNHPH|KRINC (ETD 2026-12-01): not listed today, but booking B-1003 points at it -> flagged for the booking team [SC-14]
+    held      Northstar Shipping VNHPH-KRINC: route returned zero rows -> nothing retired there [SC-13]
+    held      Pacific Arrow VNHPH-JPTYO: route failed -> nothing retired there [SC-13]
+    held      Pacific Arrow VNSGN-KRINC: route failed -> nothing retired there [SC-13]
+[6/7] HEALTH CHECK per carrier and route, against the previous crawl (ignores success=true)
+  Bluewave Lines      OK       3/3 routes OK,  17 rows (previous crawl: 18)
+  Northstar Shipping  PARTIAL  2/3 routes OK,  13 rows (previous crawl: 19)
+  Kestrel Line        PARTIAL  2/3 routes OK,  22 rows (previous crawl: 27)
+  Jade Ocean          OK       2/2 routes OK,  18 rows (previous crawl: 18)
+  Pacific Arrow       FAILED   0/2 routes OK,   0 rows (previous crawl: 12)
+    ZERO    Northstar Shipping VNHPH-KRINC: answered OK with zero rows: wrong port name, empty page or site change? Yesterday: 6. [SC-17]
+    DROP    Kestrel Line VNHPH-KRINC: rows fell 56% vs yesterday (9 -> 4): possible silent data loss, check the carrier site [SC-18]
+    FAILED  Pacific Arrow VNHPH-JPTYO: HTTP 503 on all 3 attempts [SC-16]
+    FAILED  Pacific Arrow VNSGN-KRINC: HTTP 503 on all 3 attempts [SC-16]
+  VERDICT: job said success=true; health check: 4 problem(s) found
+[7/7] EXPORT charcoal schedule (Excel) and health report (HTML)
+  charcoal_schedule_2026-11-17.xlsx: 55 sailings | DA NANG - JAPAN: 5, HAI PHONG - JAPAN: 19, HAI PHONG - KOREA: 14, HO CHI MINH - KOREA: 17
+    left out  1: Bluewave Lines: not listed in its latest crawl (2026-11-17) [SC-19]
+    left out 18: Jade Ocean: carrier not in the charcoal segment [SC-19]
+    left out  1: Kestrel Line: not listed in its latest crawl (2026-11-17) [SC-19]
+    left out  6: Northstar's NSX2 loop does not accept charcoal [SC-19]
+    STALE: Pacific Arrow (latest data 2026-11-16) kept in the file and marked [SC-19]
+  health_day2.html: health report with the rule trace
+
+Database: output/schedule.db
+Open output/health_day2.html in a browser.

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Trade News Wire</title>
+    <link>https://tradenewswire.example/</link>
+    <description>Fictional news feed for the demo</description>
+    <item>
+      <title>Exporters must issue an e-invoice for every export shipment from 1 January</title>
+      <link>https://tradenews.example/policy/e-invoice-export-shipments?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Sun, 15 Nov 2026 20:00:00 +0700</pubDate>
+      <description>From 1 January, every export shipment must be covered by an electronic invoice issued before the goods are declared to customs, according to a new notice from the national tax office. The rule applies to all exporters, including small businesses that still issue paper invoices for export sales. The e-invoice number must be entered on the customs declaration; declarations without it will be returned for correction. The tax office says exporters can use any approved e-invoice provider and that the change aims to speed up VAT refunds for exporters. Businesses that already use e-invoices for domestic sales only need to switch on the export invoice type with their provider. The notice gives a three-month transition period during which declarations with a missing number will be accepted with a warning. Exporters should check their invoicing software before the end of December.</description>
+    </item>
+    <item>
+      <title>Freight rates to Northern Europe climb for a third week</title>
+      <link>https://tradenews.example/shipping/rates-northern-europe-third-week?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Sun, 15 Nov 2026 16:30:00 +0700</pubDate>
+      <description>Container freight rates from Asia to Northern Europe rose for the third week in a row, as shipping lines cut sailings to match lower demand after the peak season. A 40-foot container now costs about 12 percent more than at the start of November on the main routes, according to a weekly rate index. Lines have also announced an emergency bunker surcharge from 1 December. Analysts expect rates to stay firm until the Lunar New Year rush in January. Exporters with cargo for Europe in December should confirm space early and ask whether quotes include the new surcharge. Contract rates signed earlier in the year are not affected unless the contract allows surcharges to be passed on.</description>
+    </item>
+    <item>
+      <title>Stock market closes higher on bank shares</title>
+      <link>https://tradenews.example/markets/stocks-close-higher?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Sun, 15 Nov 2026 17:00:00 +0700</pubDate>
+      <description>The stock market closed higher on Sunday's special session, led by bank shares after strong quarterly results. Trading volume was the highest in a month.</description>
+    </item>
+    <item>
+      <title>Port association elects a new chair</title>
+      <link>https://tradenews.example/ports/association-new-chair?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Fri, 13 Nov 2026 15:00:00 +0700</pubDate>
+      <description>The regional port association elected a new chair at its annual meeting.</description>
+    </item>
+    <item>
+      <title>Northgate terminal changes truck gate hours</title>
+      <link>https://tradenews.example/ports/northgate-gate-hours?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 +0700</pubDate>
+      <description>Northgate Container Terminal has announced changes to its truck gate hours in a short notice posted on its website. The notice says the new hours are meant to reduce queues and spread arrivals more evenly across the day, and that trucking companies will be informed through the usual channels. It does not say when the change starts or what the new opening and closing times are. A terminal spokesperson said more details would follow. Trucking companies we contacted had not yet received any information. We will update this article when the terminal publishes the full schedule.</description>
+    </item>
+    <item>
+      <title>Regional trade fair opens exhibitor registration</title>
+      <link>https://tradenews.example/events/trade-fair-registration?utm_source=rss&amp;utm_medium=feed#top</link>
+      <pubDate>Sun, 15 Nov 2026 09:30:00 +0700</pubDate>
+      <description>Registration for exhibitors at next spring's regional trade fair is now open. The fair brings together manufacturers, buyers and logistics companies from across the region over three days. Early registration ends on 31 January and includes a discount on booth fees. Organisers expect more than 400 exhibitors, with dedicated halls for furniture, food processing and textiles, and a logistics zone where forwarders and carriers meet exporters.</description>
+    </item>
+  </channel>
+</rss>

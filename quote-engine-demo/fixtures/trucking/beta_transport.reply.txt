@@ -1,0 +1,158 @@
+Here are the rates I found:
+```json
+[
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Bac Ninh",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 3050000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "B5"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Bac Ninh",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 4100000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "C5"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Bac Ninh",
+  "port": "Ho Chi Minh",
+  "truck": "40ft",
+  "price_vnd": 9800000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "D5"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Ha Noi",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 2900000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "B6"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Ha Noi",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 3850000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "B6"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Ha Noi",
+  "port": "Ho Chi Minh",
+  "truck": "40ft",
+  "price_vnd": 9600000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "D6"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Hai Duong",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 2350000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "B7"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Hai Duong",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 3050000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "C7"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Beta Transport",
+  "pickup": "Hai Duong",
+  "port": "Ho Chi Minh",
+  "truck": "40ft",
+  "price_vnd": 10000000,
+  "diesel_base_vnd": 21000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rate card",
+   "cell": "D7"
+  },
+  "diesel_source": {
+   "sheet": "Rate card",
+   "cell": "A2"
+  }
+ }
+]
+```

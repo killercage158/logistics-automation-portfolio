@@ -1,0 +1,5 @@
+pytest>=8.0
+
+# Only needed for --live (pick one, set LLM_PROVIDER to match):
+# anthropic>=1.0
+# google-genai>=1.0

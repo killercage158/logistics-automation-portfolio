@@ -1,0 +1,29 @@
+[
+ {
+  "hs_code": "44029000",
+  "description": "Wood charcoal, other than bamboo",
+  "legal_basis": {
+   "document": "fictional_decree_12_2026.txt",
+   "quote": "Wood charcoal for export shall be declared under heading 4402 and requires an export permit issued before customs clearance."
+  },
+  "doubt": ""
+ },
+ {
+  "hs_code": "44021000",
+  "description": "Bamboo charcoal",
+  "legal_basis": {
+   "document": "fictional_decree_12_2026.txt",
+   "quote": "Bamboo charcoal is declared under subheading 4402.10."
+  },
+  "doubt": "applies instead if the charcoal is made from bamboo"
+ },
+ {
+  "hs_code": "44029999",
+  "description": "Charcoal, other",
+  "legal_basis": {
+   "document": "fictional_decree_12_2026.txt",
+   "quote": "Charcoal of any kind may be exported freely without a permit."
+  },
+  "doubt": ""
+ }
+]

@@ -1,0 +1,57 @@
+```json
+[
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 2250,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D2"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 3580,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D3"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 1010,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D4"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "charcoal",
+  "price_usd": 1090,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D5"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": 

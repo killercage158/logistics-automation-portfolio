@@ -1,0 +1,11 @@
+[
+ {
+  "hs_code": "69072100",
+  "description": "Glazed ceramic floor tiles",
+  "legal_basis": {
+   "document": "fictional_circular_08_2026.txt",
+   "quote": "Ceramic floor tiles need a paperwork check at import."
+  },
+  "doubt": ""
+ }
+]

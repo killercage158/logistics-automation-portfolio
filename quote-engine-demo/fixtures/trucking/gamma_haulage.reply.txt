@@ -1,0 +1,36 @@
+[
+ {
+  "haulier": "Gamma Haulage",
+  "pickup": "Bac Ninh",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 3950000,
+  "diesel_base_vnd": 20500,
+  "valid_until": "2026-11-10",
+  "source": {
+   "sheet": "Quote",
+   "cell": "A2"
+  },
+  "diesel_source": {
+   "sheet": "Quote",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Gamma Haulage",
+  "pickup": "Ha Noi",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 4050000,
+  "diesel_base_vnd": 20500,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Quote",
+   "cell": "A3"
+  },
+  "diesel_source": {
+   "sheet": "Quote",
+   "cell": "A3"
+  }
+ }
+]

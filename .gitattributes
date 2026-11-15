@@ -1,0 +1,7 @@
+# Keep Unix line endings on every machine, so checked-in data and logs match what the code generates.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.docx binary
+*.pdf binary

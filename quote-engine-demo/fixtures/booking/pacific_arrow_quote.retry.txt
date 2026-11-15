@@ -1,0 +1,134 @@
+```json
+[
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 2250,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D2"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 3580,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D3"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 1010,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D4"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "charcoal",
+  "price_usd": 1090,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D5"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "20GP",
+  "cargo": "charcoal",
+  "price_usd": 610,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D6"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 655,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D7"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "charcoal",
+  "price_usd": 1010,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D8"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 395,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Rate list",
+   "cell": "D12"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Rotterdam",
+  "container": "40HC",
+  "cargo": null,
+  "price_usd": 4720,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Email paste",
+   "cell": "A2"
+  }
+ },
+ {
+  "carrier": "Pacific Arrow",
+  "pol": "Ho Chi Minh",
+  "pod": "Rotterdam",
+  "container": "20GP",
+  "cargo": null,
+  "price_usd": 2850,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Email paste",
+   "cell": "A3"
+  }
+ }
+]
+```

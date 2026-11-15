@@ -1,0 +1,203 @@
+{
+ "carrier": "JADE OCEAN",
+ "sailings": [
+  {
+   "routingId": "JO-VNSGN-JPTYO-001",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2644N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-11-01",
+     "eta": "2026-11-10",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-10-30 17:00",
+    "cargo": "2026-10-31 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-002",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2645N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-11-08",
+     "eta": "2026-11-17",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-11-06 17:00",
+    "cargo": "2026-11-07 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-003",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2646N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-11-15",
+     "eta": "2026-11-24",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-11-13 17:00",
+    "cargo": "2026-11-14 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-004",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2647N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-11-22",
+     "eta": "2026-12-01",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-11-20 17:00",
+    "cargo": "2026-11-21 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-005",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2648N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-11-29",
+     "eta": "2026-12-08",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-11-27 17:00",
+    "cargo": "2026-11-28 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-006",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2649N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-12-05",
+     "eta": "2026-12-14",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-12-03 17:00",
+    "cargo": "2026-12-04 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-007",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2650N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-12-13",
+     "eta": "2026-12-22",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-12-11 17:00",
+    "cargo": "2026-12-12 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-008",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2651N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-12-20",
+     "eta": "2026-12-29",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-12-18 17:00",
+    "cargo": "2026-12-19 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-009",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2652N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2026-12-27",
+     "eta": "2027-01-05",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2026-12-25 17:00",
+    "cargo": "2026-12-26 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-010",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2653N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2027-01-03",
+     "eta": "2027-01-12",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2027-01-01 17:00",
+    "cargo": "2027-01-02 12:00"
+   }
+  },
+  {
+   "routingId": "JO-VNSGN-JPTYO-011",
+   "legs": [
+    {
+     "vessel": "JADE SERENE",
+     "voyage": "2701N",
+     "from": "VNSGN",
+     "to": "JPTYO",
+     "etd": "2027-01-10",
+     "eta": "2027-01-19",
+     "service": "JNE"
+    }
+   ],
+   "cutoffs": {
+    "doc": "2027-01-08 17:00",
+    "cargo": "2027-01-09 12:00"
+   }
+  }
+ ]
+}

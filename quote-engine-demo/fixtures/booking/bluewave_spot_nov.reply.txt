@@ -1,0 +1,158 @@
+[
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 2150,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "C5"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 3300,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "D5"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Los Angeles",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 3450,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "E5"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Rotterdam",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 2900,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "C6"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Rotterdam",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 4650,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "D6"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Rotterdam",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 4800,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "E6"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 410,
+  "valid_until": "2026-11-10",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "C7"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 590,
+  "valid_until": "2026-11-10",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "D7"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 620,
+  "valid_until": "2026-11-10",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "E7"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 520,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "C8"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 880,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "D8"
+  }
+ },
+ {
+  "carrier": "Bluewave Lines",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 930,
+  "valid_until": "2026-12-15",
+  "source": {
+   "sheet": "Spot Rates",
+   "cell": "E8"
+  }
+ }
+]

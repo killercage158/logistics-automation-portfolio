@@ -1,0 +1,121 @@
+[
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Bac Ninh",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 3200000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "C5"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Bac Ninh",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 4100000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "D5"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Ha Noi",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 3000000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "C6"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Ha Noi",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 3900000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "D6"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Hai Duong",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 2400000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-10-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "C7"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Hai Duong",
+  "port": "Hai Phong",
+  "truck": "40ft",
+  "price_vnd": 3100000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-10-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "D7"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ },
+ {
+  "haulier": "Alpha Transport",
+  "pickup": "Hai Duong",
+  "port": "Hai Phong",
+  "truck": "20ft",
+  "price_vnd": 2250000,
+  "diesel_base_vnd": 20000,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Rates",
+   "cell": "C9"
+  },
+  "diesel_source": {
+   "sheet": "Rates",
+   "cell": "A2"
+  }
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "I-01": {
+  "headline": "Northgate terminal adds a daily fee for containers delivered too early before cut-off",
+  "caption": "Northgate Container Terminal will charge a daily fee on export containers that arrive more than five days before the vessel's cut-off, starting 1 December. The yard has been over 85 percent full for three weeks. The fee is billed to the shipping line, which usually passes it on to the shipper. Check the cut-off on your booking and plan trucking so your container arrives inside the free window.",
+  "image_prompt": "stacked containers in a busy terminal yard at dawn, cranes in the background"
+ },
+ "I-03": {
+  "headline": "New HS code notes for flat-pack furniture parts",
+  "caption": "From 1 December, flat-pack furniture parts shipped on their own (legs, frames, panels) are classified as furniture parts, not as worked wood. Duty rates mostly stay the same, but the product description on your certificate of origin must match the new heading. Update the HS code on your invoice, packing list and certificate application before your first December shipment, and ask your broker if your parts differ from the three examples below.",
+  "image_prompt": "wooden furniture parts laid out on a workshop table"
+ },
+ "I-04": {
+  "headline": "US West Coast rates ease, but a December increase is coming",
+  "caption": "Spot rates from Southeast Asia to the US West Coast eased for a second week as lines added capacity. Carriers have announced a general rate increase for 1 December. If your cargo is ready in late November, ask for a quote that lists every surcharge and consider booking before the increase.",
+  "image_prompt": "container ship leaving port under a clear sky"
+ },
+ "I-06": {
+  "headline": "Booking to loading: the cut-offs that decide your sailing",
+  "caption": "A booking confirmation tells you the vessel, the voyage and two deadlines: the container-yard cut-off for the full container and the document cut-off for your shipping instructions. Miss either and the box can miss the ship. Most delays come from late trucks and late paperwork, not from the vessel. Write both cut-off dates into your production plan the day you get the booking.\n\nSource: Freight Explained, 14/11/2026",
+  "image_prompt": "a truck with a container arriving at a terminal gate"
+ },
+ "I-08": [
+  {
+   "headline": "E-invoices required for every export shipment from 1 January",
+   "caption": "From 1 January, every export shipment needs an electronic invoice issued before the customs declaration, and its number must appear on the declaration. This change is guaranteed to speed up your VAT refund. Act now and check your invoicing software today.",
+   "image_prompt": "an invoice on a laptop screen next to shipping documents"
+  },
+  {
+   "headline": "E-invoices required for every export shipment from 1 January",
+   "caption": "From 1 January, every export shipment needs an electronic invoice issued before the customs declaration, and its number must appear on the declaration. Small exporters that still use paper invoices are included. There is a three-month transition with warnings. Check with your e-invoice provider that the export invoice type is switched on before the end of December.",
+   "image_prompt": "an invoice on a laptop screen next to shipping documents"
+  }
+ ],
+ "I-09": {
+  "headline": "Will Europe freight rates keep climbing into December?",
+  "caption": "Rates from Asia to Northern Europe rose for a third week, about 12 percent above early November, and lines announced an emergency bunker surcharge from 1 December. Confirm December space early and ask whether your quote includes the surcharge.\n\nSource: Trade News Wire, 15/11/2026",
+  "image_prompt": "container ship at sea in winter light"
+ },
+ "I-11": "NOT ENOUGH SOURCE: the article does not say what the new gate hours are or when they start."
+}

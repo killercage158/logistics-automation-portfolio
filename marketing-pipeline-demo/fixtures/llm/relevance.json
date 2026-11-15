@@ -1,0 +1,62 @@
+{
+ "_note": "Recorded AI answers. 'planted' is used by the first relevance calls in order: an outage, then two replies that forget some verdicts (the filter asks once more, then splits the batch).",
+ "planted": [
+  "outage",
+  "short",
+  "short"
+ ],
+ "verdicts": {
+  "I-01": [
+   true,
+   "terminal fee that changes when exporters should deliver containers"
+  ],
+  "I-02": [
+   false,
+   "celebrity news, nothing about trade or logistics"
+  ],
+  "I-03": [
+   true,
+   "customs classification change for an export product"
+  ],
+  "I-04": [
+   true,
+   "freight rate trend and an announced rate increase"
+  ],
+  "I-05": [
+   true,
+   "road closure that affects container deliveries to the port"
+  ],
+  "I-06": [
+   true,
+   "explains booking steps and cut-offs for shippers"
+  ],
+  "I-07": [
+   false,
+   "travel content, not about trade"
+  ],
+  "I-08": [
+   true,
+   "new invoicing rule for every export shipment"
+  ],
+  "I-09": [
+   true,
+   "freight rates and a new surcharge on a main export route"
+  ],
+  "I-10": [
+   false,
+   "stock market news with no effect on shipping"
+  ],
+  "I-11": [
+   true,
+   "terminal gate hours affect truck deliveries"
+  ],
+  "I-12": [
+   true,
+   "trade fair registration that exporters may want"
+  ],
+  "I-13": [
+   true,
+   "online gate appointments change how trucks deliver containers"
+  ]
+ }
+}

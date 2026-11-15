@@ -1,0 +1,112 @@
+Content pipeline, Mon 16 Nov 2026, AI: mock. A cycle runs every 30 minutes; only cycles that did something are shown.
+
+06:00
+  COLLECT (visit 1)
+    social posts   6 seen -> 5 new, 1 below 25 reactions [MK-01], 0 already in the ledger (link changed, content key matched) [MK-02]
+    videos         3 seen -> 2 new, 1 below 1,000 views [MK-01], 0 already in the ledger [MK-02]
+    news           Harbour Bulletin: 0 items -> COLLECTOR PROBLEM: a source that returns nothing is treated as broken, not as 'no news today' [MK-18]
+    news           Trade News Wire: 6 items -> 5 new, 1 older than 24 h [MK-01], 0 already in the ledger [MK-02]
+    12 new idea(s) on the board; ledger now holds 12 keys
+  relevance filter: 12 new idea(s), batches of up to 25
+    AI unavailable (planted outage: the AI service did not answer) -> nothing marked, the filter runs again next cycle [MK-04]
+
+06:30
+  relevance filter: 12 new idea(s), batches of up to 25
+    reply had 9 verdicts for 12 ideas (missing I-10, I-11, I-12)
+    -> asking once more
+    reply had 9 verdicts for 12 ideas (missing I-10, I-11, I-12)
+    -> splitting the batch: I-01..I-06 and I-07..I-12
+    I-02 OFF-TOPIC  "Photos from last night's celebrity wedding are everywhe" - celebrity news, nothing about trade or logistics [MK-03]
+    I-07 OFF-TOPIC  "Top 10 holiday destinations for 2027" - travel content, not about trade [MK-03]
+    I-10 OFF-TOPIC  "Stock market closes higher on bank shares" - stock market news with no effect on shipping [MK-03]
+    9 relevant (wait for Gate 1), 3 off-topic (removed from the board)
+
+08:30
+  GATE 1 decisions by the editor (9)
+    I-01 approved as news card
+    I-03 approved as photo album
+    I-04 approved as text card
+    I-05 rejected by the editor -> off the board, key stays in the ledger [MK-05]
+    I-06 approved as news card
+    I-07 approve: ignored, it was removed by the relevance filter
+    I-08 approved as news card
+    I-09 approved as text card
+    I-11 approved as news card
+  Gate 1 writing: 7 idea(s)
+    I-01 headline has 85 characters > 60 -> cut at a word to 53 [MK-11]
+    I-01 -> P-01 news card: "Northgate terminal adds a daily fee for containers..."
+    I-03 NEEDS SOURCE: main text 282 characters < 500, no AI call -> editor sees the text the pipeline read [MK-06]
+    I-04 -> P-04 text card: "US West Coast rates ease, but a December increase is coming" | + author comment
+    I-06 -> P-06 news card: "Booking to loading: the cut-offs that decide your sailing"
+    I-08 voice check: uses 'guaranteed', 'act now' -> asking once more with the list [MK-09]
+    I-08 voice check passed on the second try [MK-09]
+    I-08 source line missing in the AI caption -> appended by code [MK-08]
+    I-08 -> P-08 news card: "E-invoices required for every export shipment from 1 January"
+    I-09 -> P-09 text card: "Will Europe freight rates keep climbing into December?" | + author comment
+    I-11 NEEDS SOURCE: the AI refused: "the article does not say what the new gate hours are or when they start." -> editor sees the text the pipeline read [MK-07]
+
+09:30
+  GATE 1 decisions by the editor (1)
+    I-03 editor replaced the source text (818 characters)
+  Gate 1 writing: 1 idea(s)
+    I-03 source text changed by an editor -> writing again [MK-06]
+    I-03 -> P-03 photo album: "New HS code notes for flat-pack furniture parts" | 3 photos
+
+10:00
+  GATE 2 decisions by the editor (5)
+    P-01 approved: facebook + oa, now
+    P-06 approved: facebook + oa, golden hour 12:00 [MK-14]
+    P-08 approved: facebook, golden hour 18:00 [MK-14]
+    P-09 redo requested: "Make the caption shorter and drop the question in the headline."
+    P-04 rejected by the editor -> never published [MK-12]
+    P-09 redo, scope 'caption' (guessed from the feedback words) [MK-13]
+    P-09 rewritten from the saved source (no new scrape, no refusal allowed): "Europe rates up a third week, new surcharge from 1 Dec" -> back to review
+    P-01 facebook: HTTP 500: planted server error -> this channel stays open and is retried next cycle; other channels are not affected [MK-15]
+    P-01 oa: article "Northgate terminal: new fee for containers delivered too early" created HIDDEN (team publishes it; quota 3/3 this month) [MK-17]
+
+10:30
+    P-01 facebook: posted (card image) https://facebook.example/demo-freight-co/posts/100002
+    P-01 instagram: mirrored the same image and caption (ratio 1.00, ok) [MK-16]
+
+11:00
+  GATE 2 decisions by the editor (1)
+    P-09 approved: facebook, fixed time 15:30
+
+12:00
+    P-06 facebook: posted (card image) https://facebook.example/demo-freight-co/posts/100004
+    P-06 instagram: mirrored the same image and caption (ratio 1.00, ok) [MK-16]
+    P-06 oa: monthly article quota used (3/3) -> article waits, retried every 30 min; other channels are not affected [MK-17]
+
+13:00
+  GATE 2 decisions by the editor (1)
+    P-03 approved: facebook, golden hour 21:00 [MK-14]
+
+14:00
+  COLLECT (visit 2)
+    social posts   6 seen -> 1 new, 1 below 25 reactions [MK-01], 4 already in the ledger (link changed, content key matched) [MK-02]
+    videos         3 seen -> 0 new, 1 below 1,000 views [MK-01], 2 already in the ledger [MK-02]
+    news           Harbour Bulletin: 0 items -> COLLECTOR PROBLEM: a source that returns nothing is treated as broken, not as 'no news today' [MK-18]
+    news           Trade News Wire: 6 items -> 0 new, 3 older than 24 h [MK-01], 3 already in the ledger [MK-02]
+    1 new idea(s) on the board; ledger now holds 13 keys
+  relevance filter: 1 new idea(s), batches of up to 25
+    1 relevant (wait for Gate 1), 0 off-topic (removed from the board)
+
+15:30
+    P-09 facebook: posted (text) https://facebook.example/demo-freight-co/posts/100006
+    P-09 facebook: author comment posted under the post
+    P-09 instagram: skipped (text post, no image; mirror takes single-image posts only) [MK-16]
+
+18:00
+    P-08 facebook: posted (card image) https://facebook.example/demo-freight-co/posts/100008
+    P-08 instagram: mirrored the same image and caption (ratio 1.00, ok) [MK-16]
+
+21:00
+    P-03 facebook: posted (3 photos) https://facebook.example/demo-freight-co/posts/100010
+    P-03 instagram: skipped (album of 3 photos; mirror takes single-image posts only) [MK-16]
+
+END OF DAY
+  ideas: 13 collected | drafted 6, filtered 3, rejected 1, needs source 1, pending 2
+  posts: 6 drafts | published 5, rejected 1
+  waiting: P-06 oa (messaging quota 3/3 this month) [MK-17]
+
+Wrote output/board.html (open it in a browser), plus ledger.json, state.json and cards/ in output

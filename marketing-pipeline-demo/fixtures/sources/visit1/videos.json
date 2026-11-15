@@ -1,0 +1,31 @@
+{
+ "videos": [
+  {
+   "id": "vx-1001",
+   "channel": "Freight Explained",
+   "title": "How a container booking really works",
+   "views": 15400,
+   "uploaded": "Sat, 14 Nov 2026 10:00:00 +0700",
+   "link": "https://video.example/watch/vx-1001",
+   "transcript": "Today we follow one container from booking to loading. First the shipper or the forwarder asks the shipping line for space on a sailing and gets a booking confirmation with a booking number. That confirmation lists the vessel, the voyage, the port of loading and the cut-off times. The empty container is picked up from the depot with a release order, then loaded at the factory and sealed. The truck must bring the full container to the terminal before the container-yard cut-off, and the shipping instructions must reach the line before the document cut-off, or the box can miss the vessel. After loading, the line issues the bill of lading. Most delays we see come from late trucks and late shipping instructions, not from the ship. So the one habit that saves the most money is to write the cut-off dates on your production plan the day you get the booking."
+  },
+  {
+   "id": "vx-1002",
+   "channel": "Freight Explained",
+   "title": "Packing tips for fragile cargo",
+   "views": 420,
+   "uploaded": "Fri, 13 Nov 2026 09:00:00 +0700",
+   "link": "https://video.example/watch/vx-1002",
+   "transcript": "Wrap each item, fill the gaps, label the box."
+  },
+  {
+   "id": "vx-2002",
+   "channel": "Weekend Wanderer",
+   "title": "Top 10 holiday destinations for 2027",
+   "views": 8000,
+   "uploaded": "Sun, 15 Nov 2026 08:00:00 +0700",
+   "link": "https://video.example/watch/vx-2002",
+   "transcript": "Number ten on our list is a quiet island with white beaches and great seafood."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "collected_from": "fictional social pages",
+ "posts": [
+  {
+   "page": "Port Watch Asia",
+   "text": "Northgate Container Terminal will charge a congestion fee on export containers that arrive more than five days before the vessel's cut-off, starting 1 December. The terminal says its yard has been more than 85 percent full for three weeks because shippers are sending boxes early to beat the year-end rush. The fee is charged per container per day after the free period and is billed to the shipping line, which usually passes it on to the shipper. Exporters should check the cut-off date on their booking and plan trucking so the container reaches the terminal inside the free window. Several lines that call at the terminal are expected to publish their own notices this week. In the comments, members say some boxes were already stored for seven days in November.",
+   "reactions": 365,
+   "link": "https://social.example/portwatchasia/posts/pfx2d9b?ref=c37e"
+  },
+  {
+   "page": "Customs Corner",
+   "text": "New HS code notes for wooden furniture parts take effect next month. Exporters who ship flat-pack parts separately should check whether their goods now fall under a different heading. Photos below show the three examples from the customs notice. Ask your broker if you are not sure.",
+   "reactions": 95,
+   "photos": [
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1600,
+     "h": 600
+    }
+   ],
+   "link": "https://social.example/customscorner/posts/pfxb812?ref=c37e"
+  },
+  {
+   "page": "Port Watch Asia",
+   "text": "Good morning from the quay! Busy day ahead. Coffee first, containers second.",
+   "reactions": 12,
+   "link": "https://social.example/portwatchasia/posts/pfx0e0e?ref=c37e"
+  },
+  {
+   "page": "Export Desk Daily",
+   "text": "Spot rates for containers from Southeast Asia to the US West Coast eased for the second week in a row, according to three forwarders we spoke to. Shipping lines added capacity after the peak season and some sailings left with space to spare. Rates for 40-foot containers are now lower than in October, but carriers have announced a general rate increase for 1 December that may reverse part of the fall. Shippers with cargo ready in late November may want to book before the increase. Long-term contracts are not affected. Forwarders advise asking for a quote that states clearly which surcharges are included.",
+   "reactions": 260,
+   "link": "https://social.example/exportdeskdaily/posts/pfxe4c1?ref=c37e"
+  },
+  {
+   "page": "Port Watch Asia",
+   "text": "The access road to the river port's container yard will close from Saturday 22:00 to Sunday 18:00 for resurfacing. Trucks will be sent to a detour that adds about 40 minutes each way. The port says gate hours stay the same, but drivers should expect queues at the detour junction on Sunday afternoon. Exporters planning weekend deliveries should tell their trucking company now and consider moving pick-ups to Friday. The local transport office has published a map of the detour route on its notice board. The work is part of a three-month repair plan for roads around the port area.",
+   "reactions": 180,
+   "link": "https://social.example/portwatchasia/posts/pfx1a7f?ref=c37e"
+  },
+  {
+   "page": "Port Watch Asia",
+   "text": "The river port now lets trucking companies book a gate appointment online, up to three days ahead. Drivers with an appointment use a separate lane and skip the general queue. The port says appointments are free during a two-month trial, and slots open every 30 minutes from 06:00 to 22:00. Trucking companies need an account on the port's portal and the container number for each booking. Exporters should ask their trucker whether they have signed up, because unbooked trucks will wait longer during busy hours. The port plans to make appointments compulsory for export deliveries next year.",
+   "reactions": 150,
+   "link": "https://social.example/portwatchasia/posts/pfx4b4b?ref=c37e"
+  }
+ ]
+}

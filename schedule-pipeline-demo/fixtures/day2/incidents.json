@@ -1,0 +1,19 @@
+{
+ "northstar_shipping": {
+  "VNDAD-JPOSA": [
+   "timeout"
+  ]
+ },
+ "jade_ocean": {
+  "VNSGN-JPTYO": [
+   "429"
+  ]
+ },
+ "pacific_arrow": {
+  "*": [
+   "503",
+   "503",
+   "503"
+  ]
+ }
+}

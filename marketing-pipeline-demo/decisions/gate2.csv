@@ -1,0 +1,8 @@
+time,post,action,channels,schedule,feedback
+10:00,P-01,approve,facebook+oa,now,
+10:00,P-06,approve,facebook+oa,golden,
+10:00,P-08,approve,facebook,golden,
+10:00,P-09,redo,,,Make the caption shorter and drop the question in the headline.
+10:00,P-04,reject,,,
+11:00,P-09,approve,facebook,15:30,
+13:00,P-03,approve,facebook,golden,

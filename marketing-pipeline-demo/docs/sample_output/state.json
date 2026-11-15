@@ -1,0 +1,806 @@
+{
+ "ideas": [
+  {
+   "id": "I-01",
+   "kind": "social",
+   "source_name": "Port Watch Asia",
+   "title": "Northgate Container Terminal will charge a congestion fee on export containers that arrive",
+   "text": "Northgate Container Terminal will charge a congestion fee on export containers that arrive more than five days before the vessel's cut-off, starting 1 December. The terminal says its yard has been more than 85 percent full for three weeks because shippers are sending boxes early to beat the year-end rush. The fee is charged per container per day after the free period and is billed to the shipping line, which usually passes it on to the shipper. Exporters should check the cut-off date on their booking and plan trucking so the container reaches the terminal inside the free window. Several lines that call at the terminal are expected to publish their own notices this week. In the comments, members say some boxes were already stored for seven days in November.",
+   "link": "https://social.example/portwatchasia/posts/pfx8a1c?ref=a91f",
+   "key": "social:port-watch-asia:northgate container terminal will charge a congestion fee on export containers that arrive more than",
+   "published_at": null,
+   "photos": [],
+   "status": "drafted",
+   "reason": "published as P-01",
+   "fmt": "news card",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Port Watch Asia"
+    ],
+    [
+     "06:30",
+     "AI: relevant (terminal fee that changes when exporters should deliver containers)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (news card)"
+    ],
+    [
+     "08:30",
+     "draft P-01 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-02",
+   "kind": "social",
+   "source_name": "Export Desk Daily",
+   "title": "Photos from last night's celebrity wedding are everywhere today",
+   "text": "Photos from last night's celebrity wedding are everywhere today. The couple chose a beach resort and flew in 300 guests. Fans are sharing the dress, the cake and the guest list, and the hashtag has been trending since the morning. Tell us in the comments which outfit you liked best.",
+   "link": "https://social.example/exportdeskdaily/posts/pfx77e0?ref=a91f",
+   "key": "social:export-desk-daily:photos from last night s celebrity wedding are everywhere today the couple chose a beach resort and",
+   "published_at": null,
+   "photos": [],
+   "status": "filtered",
+   "reason": "off-topic: celebrity news, nothing about trade or logistics",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Export Desk Daily"
+    ],
+    [
+     "06:30",
+     "AI: off-topic (celebrity news, nothing about trade or logistics)"
+    ]
+   ]
+  },
+  {
+   "id": "I-03",
+   "kind": "social",
+   "source_name": "Customs Corner",
+   "title": "New HS code notes for wooden furniture parts take effect next month",
+   "text": "New HS code notes for wooden furniture parts take effect on 1 December. Under the notes, flat-pack parts shipped separately from the finished furniture (legs, frames, panels) are classified under the heading for furniture parts, not under the heading for worked wood. The duty rate in most destination markets is the same, but the change affects certificates of origin, because the product description must match the new heading. Exporters who ship parts on their own should update the HS code in their commercial invoice, packing list and certificate application before the first December shipment. The three photos below show the examples given in the customs notice: a table leg, a cabinet frame and a drawer panel. Ask your customs broker to confirm the code for each item if your parts differ from these examples.",
+   "link": "https://social.example/customscorner/posts/pfx3c55?ref=a91f",
+   "key": "social:customs-corner:new hs code notes for wooden furniture parts take effect next month exporters who ship flat pack pa",
+   "published_at": null,
+   "photos": [
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1600,
+     "h": 600
+    }
+   ],
+   "status": "drafted",
+   "reason": "published as P-03",
+   "fmt": "photo album",
+   "fingerprint": "d50b112829a9",
+   "history": [
+    [
+     "06:00",
+     "collected from Customs Corner"
+    ],
+    [
+     "06:30",
+     "AI: relevant (customs classification change for an export product)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (photo album)"
+    ],
+    [
+     "08:30",
+     "needs source (main text 282 characters < 500, no AI call)"
+    ],
+    [
+     "09:30",
+     "editor replaced the source text (818 characters)"
+    ],
+    [
+     "09:30",
+     "draft P-03 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-04",
+   "kind": "social",
+   "source_name": "Export Desk Daily",
+   "title": "Spot rates for containers from Southeast Asia to the US West Coast eased for the second we",
+   "text": "Spot rates for containers from Southeast Asia to the US West Coast eased for the second week in a row, according to three forwarders we spoke to. Shipping lines added capacity after the peak season and some sailings left with space to spare. Rates for 40-foot containers are now lower than in October, but carriers have announced a general rate increase for 1 December that may reverse part of the fall. Shippers with cargo ready in late November may want to book before the increase. Long-term contracts are not affected. Forwarders advise asking for a quote that states clearly which surcharges are included.",
+   "link": "https://social.example/exportdeskdaily/posts/pfx5b20?ref=a91f",
+   "key": "social:export-desk-daily:spot rates for containers from southeast asia to the us west coast eased for the second week in a ro",
+   "published_at": null,
+   "photos": [],
+   "status": "drafted",
+   "reason": "draft P-04 rejected at Gate 2: never published",
+   "fmt": "text card",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Export Desk Daily"
+    ],
+    [
+     "06:30",
+     "AI: relevant (freight rate trend and an announced rate increase)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (text card)"
+    ],
+    [
+     "08:30",
+     "draft P-04 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-05",
+   "kind": "social",
+   "source_name": "Port Watch Asia",
+   "title": "The access road to the river port's container yard will close from Saturday 22:00 to Sunda",
+   "text": "The access road to the river port's container yard will close from Saturday 22:00 to Sunday 18:00 for resurfacing. Trucks will be sent to a detour that adds about 40 minutes each way. The port says gate hours stay the same, but drivers should expect queues at the detour junction on Sunday afternoon. Exporters planning weekend deliveries should tell their trucking company now and consider moving pick-ups to Friday. The local transport office has published a map of the detour route on its notice board. The work is part of a three-month repair plan for roads around the port area.",
+   "link": "https://social.example/portwatchasia/posts/pfx6d31?ref=a91f",
+   "key": "social:port-watch-asia:the access road to the river port s container yard will close from saturday 22 00 to sunday 18 00 fo",
+   "published_at": null,
+   "photos": [],
+   "status": "rejected",
+   "reason": "rejected by the editor at Gate 1; its key stays in the ledger",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Port Watch Asia"
+    ],
+    [
+     "06:30",
+     "AI: relevant (road closure that affects container deliveries to the port)"
+    ],
+    [
+     "08:30",
+     "rejected at Gate 1"
+    ]
+   ]
+  },
+  {
+   "id": "I-06",
+   "kind": "video",
+   "source_name": "Freight Explained",
+   "title": "How a container booking really works",
+   "text": "Today we follow one container from booking to loading. First the shipper or the forwarder asks the shipping line for space on a sailing and gets a booking confirmation with a booking number. That confirmation lists the vessel, the voyage, the port of loading and the cut-off times. The empty container is picked up from the depot with a release order, then loaded at the factory and sealed. The truck must bring the full container to the terminal before the container-yard cut-off, and the shipping instructions must reach the line before the document cut-off, or the box can miss the vessel. After loading, the line issues the bill of lading. Most delays we see come from late trucks and late shipping instructions, not from the ship. So the one habit that saves the most money is to write the cut-off dates on your production plan the day you get the booking.",
+   "link": "https://video.example/watch/vx-1001",
+   "key": "video:vx-1001",
+   "published_at": "2026-11-14 10:00:00+07:00",
+   "photos": [],
+   "status": "drafted",
+   "reason": "published as P-06",
+   "fmt": "news card",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Freight Explained"
+    ],
+    [
+     "06:30",
+     "AI: relevant (explains booking steps and cut-offs for shippers)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (news card)"
+    ],
+    [
+     "08:30",
+     "draft P-06 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-07",
+   "kind": "video",
+   "source_name": "Weekend Wanderer",
+   "title": "Top 10 holiday destinations for 2027",
+   "text": "Number ten on our list is a quiet island with white beaches and great seafood.",
+   "link": "https://video.example/watch/vx-2002",
+   "key": "video:vx-2002",
+   "published_at": "2026-11-15 08:00:00+07:00",
+   "photos": [],
+   "status": "filtered",
+   "reason": "off-topic: travel content, not about trade",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Weekend Wanderer"
+    ],
+    [
+     "06:30",
+     "AI: off-topic (travel content, not about trade)"
+    ]
+   ]
+  },
+  {
+   "id": "I-08",
+   "kind": "news",
+   "source_name": "Trade News Wire",
+   "title": "Exporters must issue an e-invoice for every export shipment from 1 January",
+   "text": "From 1 January, every export shipment must be covered by an electronic invoice issued before the goods are declared to customs, according to a new notice from the national tax office. The rule applies to all exporters, including small businesses that still issue paper invoices for export sales. The e-invoice number must be entered on the customs declaration; declarations without it will be returned for correction. The tax office says exporters can use any approved e-invoice provider and that the change aims to speed up VAT refunds for exporters. Businesses that already use e-invoices for domestic sales only need to switch on the export invoice type with their provider. The notice gives a three-month transition period during which declarations with a missing number will be accepted with a warning. Exporters should check their invoicing software before the end of December.",
+   "link": "https://tradenews.example/policy/e-invoice-export-shipments?utm_source=rss",
+   "key": "news:https://tradenews.example/policy/e-invoice-export-shipments",
+   "published_at": "2026-11-15 20:00:00",
+   "photos": [],
+   "status": "drafted",
+   "reason": "published as P-08",
+   "fmt": "news card",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Trade News Wire"
+    ],
+    [
+     "06:30",
+     "AI: relevant (new invoicing rule for every export shipment)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (news card)"
+    ],
+    [
+     "08:30",
+     "draft P-08 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-09",
+   "kind": "news",
+   "source_name": "Trade News Wire",
+   "title": "Freight rates to Northern Europe climb for a third week",
+   "text": "Container freight rates from Asia to Northern Europe rose for the third week in a row, as shipping lines cut sailings to match lower demand after the peak season. A 40-foot container now costs about 12 percent more than at the start of November on the main routes, according to a weekly rate index. Lines have also announced an emergency bunker surcharge from 1 December. Analysts expect rates to stay firm until the Lunar New Year rush in January. Exporters with cargo for Europe in December should confirm space early and ask whether quotes include the new surcharge. Contract rates signed earlier in the year are not affected unless the contract allows surcharges to be passed on.",
+   "link": "https://tradenews.example/shipping/rates-northern-europe-third-week?utm_source=rss",
+   "key": "news:https://tradenews.example/shipping/rates-northern-europe-third-week",
+   "published_at": "2026-11-15 16:30:00",
+   "photos": [],
+   "status": "drafted",
+   "reason": "published as P-09",
+   "fmt": "text card",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Trade News Wire"
+    ],
+    [
+     "06:30",
+     "AI: relevant (freight rates and a new surcharge on a main export route)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (text card)"
+    ],
+    [
+     "08:30",
+     "draft P-09 created"
+    ]
+   ]
+  },
+  {
+   "id": "I-10",
+   "kind": "news",
+   "source_name": "Trade News Wire",
+   "title": "Stock market closes higher on bank shares",
+   "text": "The stock market closed higher on Sunday's special session, led by bank shares after strong quarterly results. Trading volume was the highest in a month.",
+   "link": "https://tradenews.example/markets/stocks-close-higher?utm_source=rss",
+   "key": "news:https://tradenews.example/markets/stocks-close-higher",
+   "published_at": "2026-11-15 17:00:00",
+   "photos": [],
+   "status": "filtered",
+   "reason": "off-topic: stock market news with no effect on shipping",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Trade News Wire"
+    ],
+    [
+     "06:30",
+     "AI: off-topic (stock market news with no effect on shipping)"
+    ]
+   ]
+  },
+  {
+   "id": "I-11",
+   "kind": "news",
+   "source_name": "Trade News Wire",
+   "title": "Northgate terminal changes truck gate hours",
+   "text": "Northgate Container Terminal has announced changes to its truck gate hours in a short notice posted on its website. The notice says the new hours are meant to reduce queues and spread arrivals more evenly across the day, and that trucking companies will be informed through the usual channels. It does not say when the change starts or what the new opening and closing times are. A terminal spokesperson said more details would follow. Trucking companies we contacted had not yet received any information. We will update this article when the terminal publishes the full schedule.",
+   "link": "https://tradenews.example/ports/northgate-gate-hours?utm_source=rss",
+   "key": "news:https://tradenews.example/ports/northgate-gate-hours",
+   "published_at": "2026-11-15 12:00:00",
+   "photos": [],
+   "status": "needs_source",
+   "reason": "needs source: the AI refused: \"the article does not say what the new gate hours are or when they start.\". Add text to the idea and it runs again.",
+   "fmt": "news card",
+   "fingerprint": "5361c1099458",
+   "history": [
+    [
+     "06:00",
+     "collected from Trade News Wire"
+    ],
+    [
+     "06:30",
+     "AI: relevant (terminal gate hours affect truck deliveries)"
+    ],
+    [
+     "08:30",
+     "approved at Gate 1 (news card)"
+    ],
+    [
+     "08:30",
+     "needs source (the AI refused: \"the article does not say what the new gate hours are or when they start.\")"
+    ]
+   ]
+  },
+  {
+   "id": "I-12",
+   "kind": "news",
+   "source_name": "Trade News Wire",
+   "title": "Regional trade fair opens exhibitor registration",
+   "text": "Registration for exhibitors at next spring's regional trade fair is now open. The fair brings together manufacturers, buyers and logistics companies from across the region over three days. Early registration ends on 31 January and includes a discount on booth fees. Organisers expect more than 400 exhibitors, with dedicated halls for furniture, food processing and textiles, and a logistics zone where forwarders and carriers meet exporters.",
+   "link": "https://tradenews.example/events/trade-fair-registration?utm_source=rss",
+   "key": "news:https://tradenews.example/events/trade-fair-registration",
+   "published_at": "2026-11-15 09:30:00",
+   "photos": [],
+   "status": "pending",
+   "reason": "relevant: trade fair registration that exporters may want",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "06:00",
+     "collected from Trade News Wire"
+    ],
+    [
+     "06:30",
+     "AI: relevant (trade fair registration that exporters may want)"
+    ]
+   ]
+  },
+  {
+   "id": "I-13",
+   "kind": "social",
+   "source_name": "Port Watch Asia",
+   "title": "The river port now lets trucking companies book a gate appointment online, up to three day",
+   "text": "The river port now lets trucking companies book a gate appointment online, up to three days ahead. Drivers with an appointment use a separate lane and skip the general queue. The port says appointments are free during a two-month trial, and slots open every 30 minutes from 06:00 to 22:00. Trucking companies need an account on the port's portal and the container number for each booking. Exporters should ask their trucker whether they have signed up, because unbooked trucks will wait longer during busy hours. The port plans to make appointments compulsory for export deliveries next year.",
+   "link": "https://social.example/portwatchasia/posts/pfx4b4b?ref=c37e",
+   "key": "social:port-watch-asia:the river port now lets trucking companies book a gate appointment online up to three days ahead d",
+   "published_at": null,
+   "photos": [],
+   "status": "pending",
+   "reason": "relevant: online gate appointments change how trucks deliver containers",
+   "fmt": "",
+   "fingerprint": "",
+   "history": [
+    [
+     "14:00",
+     "collected from Port Watch Asia"
+    ],
+    [
+     "14:00",
+     "AI: relevant (online gate appointments change how trucks deliver containers)"
+    ]
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "id": "P-01",
+   "idea_id": "I-01",
+   "fmt": "news card",
+   "headline": "Northgate terminal adds a daily fee for containers...",
+   "caption": "Northgate Container Terminal will charge a daily fee on export containers that arrive more than five days before the vessel's cut-off, starting 1 December. The yard has been over 85 percent full for three weeks. The fee is billed to the shipping line, which usually passes it on to the shipper. Check the cut-off on your booking and plan trucking so your container arrives inside the free window.",
+   "comment": "",
+   "photos": [],
+   "source_line": "",
+   "status": "published",
+   "channels": [
+    "facebook",
+    "oa"
+   ],
+   "schedule": "now",
+   "slot": "2026-11-16 10:00:00",
+   "channel_state": {
+    "facebook": {
+     "status": "posted",
+     "link": "https://facebook.example/demo-freight-co/posts/100002",
+     "detail": ""
+    },
+    "oa": {
+     "status": "posted",
+     "link": "https://oa.example/articles/100001?status=hidden",
+     "detail": "created HIDDEN: the team reviews and publishes it"
+    },
+    "instagram": {
+     "status": "posted",
+     "link": "https://instagram.example/p/DEMO100003",
+     "detail": "image 1080x1080: ok"
+    }
+   },
+   "flags": [],
+   "feedback": "",
+   "oa_article": {
+    "title": "Northgate terminal: new fee for containers delivered too early",
+    "body": "From 1 December, Northgate Container Terminal will charge a daily fee on export containers that arrive more than five days before the vessel's cut-off.\n\nThe terminal says its yard has been more than 85 percent full for three weeks, as shippers deliver early ahead of the year-end rush.\n\nThe fee is billed to the shipping line, which usually passes it on to the shipper.\n\nWhat to do: check the cut-off date on each booking and agree delivery dates with your trucking company so containers arrive inside the free window."
+   },
+   "history": [
+    [
+     "08:30",
+     "draft written from I-01"
+    ],
+    [
+     "10:00",
+     "approved at Gate 2: facebook + oa, now"
+    ],
+    [
+     "10:30",
+     "published"
+    ]
+   ]
+  },
+  {
+   "id": "P-04",
+   "idea_id": "I-04",
+   "fmt": "text card",
+   "headline": "US West Coast rates ease, but a December increase is coming",
+   "caption": "US West Coast rates ease, but a December increase is coming",
+   "comment": "- Spot rates to the US West Coast fell for a second week after lines added capacity.\n- 40-foot rates are now below October levels.\n- A general rate increase is announced for 1 December.\n- Long-term contracts are not affected.\n- Ask for a quote that states every surcharge included.",
+   "photos": [],
+   "source_line": "",
+   "status": "rejected",
+   "channels": [],
+   "schedule": "",
+   "slot": null,
+   "channel_state": {},
+   "flags": [],
+   "feedback": "",
+   "oa_article": null,
+   "history": [
+    [
+     "08:30",
+     "draft written from I-04"
+    ],
+    [
+     "10:00",
+     "rejected at Gate 2"
+    ]
+   ]
+  },
+  {
+   "id": "P-06",
+   "idea_id": "I-06",
+   "fmt": "news card",
+   "headline": "Booking to loading: the cut-offs that decide your sailing",
+   "caption": "A booking confirmation tells you the vessel, the voyage and two deadlines: the container-yard cut-off for the full container and the document cut-off for your shipping instructions. Miss either and the box can miss the ship. Most delays come from late trucks and late paperwork, not from the vessel. Write both cut-off dates into your production plan the day you get the booking.\n\nSource: Freight Explained, 14/11/2026",
+   "comment": "",
+   "photos": [],
+   "source_line": "Source: Freight Explained, 14/11/2026",
+   "status": "published",
+   "channels": [
+    "facebook",
+    "oa"
+   ],
+   "schedule": "golden",
+   "slot": "2026-11-16 12:00:00",
+   "channel_state": {
+    "facebook": {
+     "status": "posted",
+     "link": "https://facebook.example/demo-freight-co/posts/100004",
+     "detail": ""
+    },
+    "oa": {
+     "status": "waiting",
+     "link": "",
+     "detail": "monthly article quota used (3/3); retried every 30 min",
+     "retry_at": "2026-11-17 00:00:00",
+     "tries": 24
+    },
+    "instagram": {
+     "status": "posted",
+     "link": "https://instagram.example/p/DEMO100005",
+     "detail": "image 1080x1080: ok"
+    }
+   },
+   "flags": [],
+   "feedback": "",
+   "oa_article": {
+    "title": "From booking to loading: the two cut-offs that matter",
+    "body": "Every booking confirmation lists the vessel, the voyage and two deadlines.\n\nThe container-yard cut-off is the last moment the full container can enter the terminal. The document cut-off is the last moment the shipping instructions can reach the line.\n\nMissing either can mean missing the vessel. Most delays come from late trucks and late documents, not from the ship.\n\nWhat to do: write both cut-off dates into your production plan as soon as the booking is confirmed.\n\nSource: Freight Explained, 14/11/2026"
+   },
+   "history": [
+    [
+     "08:30",
+     "draft written from I-06"
+    ],
+    [
+     "10:00",
+     "approved at Gate 2: facebook + oa, golden hour 12:00"
+    ],
+    [
+     "12:00",
+     "published"
+    ]
+   ]
+  },
+  {
+   "id": "P-08",
+   "idea_id": "I-08",
+   "fmt": "news card",
+   "headline": "E-invoices required for every export shipment from 1 January",
+   "caption": "From 1 January, every export shipment needs an electronic invoice issued before the customs declaration, and its number must appear on the declaration. Small exporters that still use paper invoices are included. There is a three-month transition with warnings. Check with your e-invoice provider that the export invoice type is switched on before the end of December.\n\nSource: Trade News Wire, 15/11/2026",
+   "comment": "",
+   "photos": [],
+   "source_line": "Source: Trade News Wire, 15/11/2026",
+   "status": "published",
+   "channels": [
+    "facebook"
+   ],
+   "schedule": "golden",
+   "slot": "2026-11-16 18:00:00",
+   "channel_state": {
+    "facebook": {
+     "status": "posted",
+     "link": "https://facebook.example/demo-freight-co/posts/100008",
+     "detail": ""
+    },
+    "instagram": {
+     "status": "posted",
+     "link": "https://instagram.example/p/DEMO100009",
+     "detail": "image 1080x1080: ok"
+    }
+   },
+   "flags": [],
+   "feedback": "",
+   "oa_article": null,
+   "history": [
+    [
+     "08:30",
+     "draft written from I-08"
+    ],
+    [
+     "10:00",
+     "approved at Gate 2: facebook, golden hour 18:00"
+    ],
+    [
+     "18:00",
+     "published"
+    ]
+   ]
+  },
+  {
+   "id": "P-09",
+   "idea_id": "I-09",
+   "fmt": "text card",
+   "headline": "Europe rates up a third week, new surcharge from 1 Dec",
+   "caption": "Europe rates up a third week, new surcharge from 1 Dec\nSource: Trade News Wire, 15/11/2026",
+   "comment": "- Asia to Northern Europe rates rose for the third week in a row.\n- A 40-foot container costs about 12 percent more than in early November.\n- An emergency bunker surcharge starts on 1 December.\n- Contract rates are not affected unless the contract passes surcharges on.\n- Confirm December space early and check what your quote includes.",
+   "photos": [],
+   "source_line": "Source: Trade News Wire, 15/11/2026",
+   "status": "published",
+   "channels": [
+    "facebook"
+   ],
+   "schedule": "15:30",
+   "slot": "2026-11-16 15:30:00",
+   "channel_state": {
+    "facebook": {
+     "status": "posted",
+     "link": "https://facebook.example/demo-freight-co/posts/100006",
+     "detail": ""
+    },
+    "instagram": {
+     "status": "skipped",
+     "link": "",
+     "detail": "text post, no image: Instagram mirror takes single-image posts only"
+    }
+   },
+   "flags": [],
+   "feedback": "",
+   "oa_article": null,
+   "history": [
+    [
+     "08:30",
+     "draft written from I-09"
+    ],
+    [
+     "10:00",
+     "redo requested: Make the caption shorter and drop the question in the headline."
+    ],
+    [
+     "10:00",
+     "rewritten (caption) from the saved source"
+    ],
+    [
+     "11:00",
+     "approved at Gate 2: facebook, fixed time 15:30"
+    ],
+    [
+     "15:30",
+     "published"
+    ]
+   ]
+  },
+  {
+   "id": "P-03",
+   "idea_id": "I-03",
+   "fmt": "photo album",
+   "headline": "New HS code notes for flat-pack furniture parts",
+   "caption": "From 1 December, flat-pack furniture parts shipped on their own (legs, frames, panels) are classified as furniture parts, not as worked wood. Duty rates mostly stay the same, but the product description on your certificate of origin must match the new heading. Update the HS code on your invoice, packing list and certificate application before your first December shipment, and ask your broker if your parts differ from the three examples below.",
+   "comment": "",
+   "photos": [
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "w": 1600,
+     "h": 600
+    }
+   ],
+   "source_line": "",
+   "status": "published",
+   "channels": [
+    "facebook"
+   ],
+   "schedule": "golden",
+   "slot": "2026-11-16 21:00:00",
+   "channel_state": {
+    "facebook": {
+     "status": "posted",
+     "link": "https://facebook.example/demo-freight-co/posts/100010",
+     "detail": ""
+    },
+    "instagram": {
+     "status": "skipped",
+     "link": "",
+     "detail": "album of 3 photos: Instagram mirror takes single-image posts only"
+    }
+   },
+   "flags": [],
+   "feedback": "",
+   "oa_article": null,
+   "history": [
+    [
+     "09:30",
+     "draft written from I-03"
+    ],
+    [
+     "13:00",
+     "approved at Gate 2: facebook, golden hour 21:00"
+    ],
+    [
+     "21:00",
+     "published"
+    ]
+   ]
+  }
+ ],
+ "publish_log": [
+  [
+   "10:00",
+   "P-01",
+   "facebook",
+   "failed",
+   "HTTP 500: planted server error"
+  ],
+  [
+   "10:00",
+   "P-01",
+   "oa",
+   "created hidden",
+   "https://oa.example/articles/100001?status=hidden"
+  ],
+  [
+   "10:30",
+   "P-01",
+   "facebook",
+   "posted",
+   "https://facebook.example/demo-freight-co/posts/100002"
+  ],
+  [
+   "10:30",
+   "P-01",
+   "instagram",
+   "posted",
+   "https://instagram.example/p/DEMO100003"
+  ],
+  [
+   "12:00",
+   "P-06",
+   "facebook",
+   "posted",
+   "https://facebook.example/demo-freight-co/posts/100004"
+  ],
+  [
+   "12:00",
+   "P-06",
+   "instagram",
+   "posted",
+   "https://instagram.example/p/DEMO100005"
+  ],
+  [
+   "12:00",
+   "P-06",
+   "oa",
+   "waiting",
+   "monthly article quota used (3/3)"
+  ],
+  [
+   "15:30",
+   "P-09",
+   "facebook",
+   "posted",
+   "https://facebook.example/demo-freight-co/posts/100006"
+  ],
+  [
+   "15:30",
+   "P-09",
+   "facebook",
+   "author comment",
+   "posted under the post"
+  ],
+  [
+   "15:30",
+   "P-09",
+   "instagram",
+   "skipped",
+   "text post, no image: Instagram mirror takes single-image posts only"
+  ],
+  [
+   "18:00",
+   "P-08",
+   "facebook",
+   "posted",
+   "https://facebook.example/demo-freight-co/posts/100008"
+  ],
+  [
+   "18:00",
+   "P-08",
+   "instagram",
+   "posted",
+   "https://instagram.example/p/DEMO100009"
+  ],
+  [
+   "21:00",
+   "P-03",
+   "facebook",
+   "posted",
+   "https://facebook.example/demo-freight-co/posts/100010"
+  ],
+  [
+   "21:00",
+   "P-03",
+   "instagram",
+   "skipped",
+   "album of 3 photos: Instagram mirror takes single-image posts only"
+  ]
+ ]
+}

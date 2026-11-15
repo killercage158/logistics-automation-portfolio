@@ -1,0 +1,123 @@
+Here are the prices I found in the file:
+```json
+[
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 420,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "C5"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 600,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "D5"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Hai Phong",
+  "pod": "Singapore",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 650,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "D5"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 540,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "C6"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 900,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "D6"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Ho Chi Minh",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 960,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "E6"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Da Nang",
+  "pod": "Busan",
+  "container": "20GP",
+  "cargo": "general",
+  "price_usd": 560,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "C7"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Da Nang",
+  "pod": "Busan",
+  "container": "40GP",
+  "cargo": "general",
+  "price_usd": 880,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "D7"
+  }
+ },
+ {
+  "carrier": "Northstar Shipping",
+  "pol": "Da Nang",
+  "pod": "Busan",
+  "container": "40HC",
+  "cargo": "general",
+  "price_usd": 930,
+  "valid_until": "2026-12-31",
+  "source": {
+   "sheet": "Tariff",
+   "cell": "E7"
+  }
+ }
+]
+```
+Let me know if you need anything else.

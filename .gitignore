@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# Secrets - never commit
+.env
+.env.*
+
+# Files the demo generates (run make_sample_data.py and extract.py to create them)
+demo/sample_data/
+demo/output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keys and captures - never commit
+!.env.example
+*.pem
+*.key
+*.p12
+*.har
