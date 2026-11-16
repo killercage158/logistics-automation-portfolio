@@ -6,6 +6,8 @@ A runnable re-creation of the freight quote engine described in
 combined quotation: sea freight, trucking and customs, each with its own department rules, a simulated dispatch with
 deadlines and reminders, and a Sales Support step that picks options and sets the margin. All data is fictional.
 
+In production the same flow ran on the teams' Lark tables, a Node.js service and live carrier websites, for real customer requests. Here every outside system is replaced by a local stand-in, so it runs on any laptop: see [the real systems and the demos](../README.md#the-real-systems-and-the-demos).
+
 ![Lead report: dispatch timeline, Booking, Trucking, Customs, Sales Support, rules applied](docs/screenshot_lead.png)
 
 ## What it shows, in 30 seconds

@@ -4,7 +4,7 @@ I am Nguyen Minh Hieu. I studied finance. From May to November 2026 I worked at 
 
 **How I built these:** I designed four of these systems and built them with an AI coding assistant (Claude Code). The fifth, the sailing-schedule pipeline, already existed; I took it over and extended it. I gathered the requirements, defined the workflows, business rules and checks, tested with staff, and ran the systems in production. I owned the problem, the rules, the design choices, the tests with real users, and the decision of when each system was safe to switch on.
 
-This repository describes that work. It has no company code, no real data and no internal details. The only code here is three original demos, built the same AI-assisted way, that anyone can run.
+This repository describes that work. It has no company code, no real data and no internal details. The only code here is three original demos, built the same AI-assisted way, that anyone can run. They re-create the logic and rules of the production systems with fictional data. [How they differ from the real systems](#the-real-systems-and-the-demos).
 
 ## The five case studies
 
@@ -20,7 +20,7 @@ The systems served 5 departments in total: sales, booking, trucking, customs and
 
 ## Demos
 
-Three runnable re-creations with fictional data. Each one runs offline with recorded AI answers (or live with Claude or Gemini), has automated tests, and traces every business rule it applies by ID.
+Three runnable re-creations with fictional data ([what is simulated](#the-real-systems-and-the-demos)). Each one runs offline with recorded AI answers (or live with Claude or Gemini), has automated tests, and traces every business rule it applies by ID.
 
 | Demo | What it shows | Tests |
 |---|---|---|
@@ -30,20 +30,35 @@ Three runnable re-creations with fictional data. Each one runs offline with reco
 
 ![Rate comparison report from the quote engine demo](quote-engine-demo/docs/screenshot.png)
 
-## The stack, in plain words
+## The real systems and the demos
 
-- **Python and Node.js scripts** do the work: read files, call carrier websites and APIs, make PDFs.
-- **Browser automation** is used where a carrier has a web portal but no usable API.
-- **A no-code team database** is where staff work. They tick a box or press a button, and the result appears in the table.
-- **A small service on an office PC** receives those button presses, queues the jobs and writes results back.
-- **A visual workflow tool** handles a few simple jobs, such as sending PDFs and emails.
-- **A cloud database** stores schedule data.
-- **Windows scheduled tasks** run the daily jobs.
-- **Claude** (the AI model) reads messy files and drafts text. Plain code checks its answers.
+The demos are built so that anyone can run them on a laptop in a minute, with no accounts, no API key and no connection to any outside service. To make that possible, every outside system is replaced by a local stand-in. The business logic and the department rules follow the production systems; the connections around them are simulated.
+
+The production systems ran every working day inside the company. They were connected to live carrier websites, the teams' file server, their shared tables and their chat, and staff in five departments used them in their daily work.
+
+| Part | In production | In the demo |
+|---|---|---|
+| Where staff work | Shared tables in Lark Base. Staff tick a box or press a button; results, cards and bot messages come back in Lark | Command line and HTML reports |
+| Receiving jobs | A Node.js service on an office PC, reached through a Cloudflare tunnel, with job queues, worker processes and locks | A direct function call |
+| Carrier prices | A real Chrome browser, driven by custom extensions, logs in to 6 carrier websites | Simulated carrier portals with fictional prices, delays and failures |
+| Price sheets, haulier files, customs documents | Claude (Claude Code command line, read-only) reads the teams' real Excel, Word and image files on the company file server | Recorded AI answers over fictional files, or live Claude or Gemini with `--live` |
+| Documents | Comparison and quote PDFs, and an editable Word quote for the customer; some PDFs and emails through n8n | HTML files |
+| Sailing schedules | NestJS crawlers (Puppeteer and carrier APIs) for 8 carriers, twice a day, into Supabase (PostgreSQL) and Lark | 5 fictional carriers read from local files into SQLite |
+| Marketing | Python crawlers (Playwright, yt-dlp, RSS) over Facebook pages, TikTok, YouTube and news sites; Gemini writes the drafts; posts go to 2 Facebook pages, single-image posts are mirrored to Instagram, and hidden Zalo OA articles are prepared for the team | Fictional sources and simulated platforms; nothing is posted |
+| Daily runs | Windows scheduled tasks | You run the command |
+
+In production:
+
+- The booking team (4 staff) used the quote engine every day from late September 2026. A full check of all 6 carrier websites ran unattended in 9 to 14 minutes.
+- Lead dispatch connected Sales Support with the Booking, Trucking and Customs teams, and was tested with 7 leads at once, run like a busy day.
+- The schedule pipeline collected schedules from 8 carriers twice a day. One clean-up removed 17,514 stale duplicate database rows out of 26,803 (65%), and 5,624 duplicates from the team's table without touching any row linked to a booking.
+- The marketing pipeline brought in about 20 to 50 new ideas a day, and nothing was posted without two human approvals.
+
+What a demo cannot show are the problems of running against real systems: logins that expire, carrier websites that change without notice, rate limits, a PC that must stay on, and rounds of feedback from staff. The case studies describe those problems and how they were solved. The production code belongs to the company, so it is not published here.
 
 ## Confidentiality
 
-Employer and public carrier names appear because they are public. Everything else is described in business and architecture terms only. No prices, customers, staff, account details, screenshots or internal identifiers are included.
+Employer, carrier and software product names appear because they are public. Everything else is described in business and architecture terms only. No prices, customers, staff, account details, screenshots or internal identifiers are included.
 
 ## License
 

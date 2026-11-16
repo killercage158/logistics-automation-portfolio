@@ -4,6 +4,8 @@ A runnable re-creation of the marketing content pipeline described in
 [case study 5](../case-studies/05-marketing-content-pipeline.md). All sources, pages, posts and texts are fictional,
 and nothing is posted anywhere: the platforms are simulated.
 
+In production the pipeline read real Facebook pages, TikTok, YouTube and news sites, Gemini wrote the drafts, and approved posts went to Facebook, single-image posts were mirrored to Instagram, and hidden Zalo OA articles were prepared for the team. Here every outside system is replaced by a local stand-in, so it runs on any laptop: see [the real systems and the demos](../README.md#the-real-systems-and-the-demos).
+
 ![Content board at the end of the simulated day](docs/screenshot.png)
 
 ## What it shows, in 30 seconds

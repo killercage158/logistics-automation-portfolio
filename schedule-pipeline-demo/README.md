@@ -3,6 +3,8 @@
 A runnable re-creation of the sailing schedule pipeline I took over and extended, described in
 [case study 4](../case-studies/04-sailing-schedule-pipeline.md). All carriers, vessels, bookings and data are fictional.
 
+In production the pipeline collected 8 real carriers twice a day into Supabase and the booking team's Lark table. Here five fictional carriers are read from local files into SQLite, so it runs on any laptop: see [the real systems and the demos](../README.md#the-real-systems-and-the-demos).
+
 ![Health report for crawl day 2](docs/screenshot.png)
 
 ## What it shows, in 30 seconds
